@@ -1,7 +1,7 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 def greeting():
-    print "Hello RESIF !"
+    print("Hello RESIF !")
 
-if __name__ == "__main__""
+if __name__ == "__main__"":
     greeting()

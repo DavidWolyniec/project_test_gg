@@ -1,7 +1,11 @@
 #!/usr/bin/env python2
 
-def greeting():
-    print "Hello RESIF !"
+def greetings():
+    print "Hello RESIF people!"
 
-if __name__ == "__main__""
-    greeting()
+def repeat(x, callback):
+    for _ in range(x):
+        callback()
+
+if __name__ == "__main__":
+    repeat(3, greetings)

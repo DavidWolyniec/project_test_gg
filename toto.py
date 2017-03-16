@@ -1,5 +1,6 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
+<<<<<<< HEAD
 def greetings():
     print "Hello RESIF people!"
 
@@ -9,3 +10,10 @@ def repeat(x, callback):
 
 if __name__ == "__main__":
     repeat(3, greetings)
+=======
+def greeting():
+    print("Hello RESIF !")
+
+if __name__ == "__main__":
+    greeting()
+>>>>>>> python3

@@ -2,7 +2,7 @@
 
 def greetings():
     """Salute RESIF people."""
-    print("Hello RESIF people!")
+    print("Hello RESIF peoples!")
 
 def repeat(x, callback):
     """Call x times callback."""
